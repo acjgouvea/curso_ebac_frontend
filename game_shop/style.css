@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header ,
-section h2 {
+section h2,
+section h3 {
     font-family: 'Bungee', cursive;
+    font-weight: normal;
+
 }
-
-
-body{
+body,
+input, textarea{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,22 +21,16 @@ header {
     background-color:#182c61 ;
     color: #ecf0f1;
 }
-header h1,
-section h2{
-    font-weight: normal;
-}
 
 header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 16px;
-
 }
 
 header nav li a {
     color: #ffff;
     text-decoration: none;
-
 }
 
 .container {
@@ -81,3 +78,63 @@ section p{
     margin-left: 22px;
 }
 
+.social img{
+    height:24px;
+
+}
+.social li{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+#contato .container{
+    display: block;
+}
+
+.contato-met {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ffff;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(52, 14, 158);
+}
+
+input:focus, testarea:focus {
+    outline-color: #182c61;
+}
+
+
+    footer {
+        background-color: #182c61; 
+        color : #fff;
+        padding: 22px 0 ;
+        
+    }

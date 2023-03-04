@@ -24,14 +24,14 @@
                 <a href="#sobre">Sobre a Loja</a>
             </li>
             <li>
-                <a href="contato">Contato</a>
+                <a href="#contato">Contato</a>
             </li>
             </ul>
         </nav>
     </div>
 </header>
 
-<section>
+<section id="sobre">
     <div class="container">
         <img class="frente" src="./imagens/loja.jpg" alt="fachada da loja">
         
@@ -58,15 +58,15 @@
 </section>
 
 
-<section>
+<section id="contato">
     <div class="cotainer">
         <h2>Contato</h2>
-        <div>
+        <div class="contato-met">
             <div>
                 <h3>Fale conosco</h3>
                 <form action="">
-                    <input type="text" placeholder="Seu nome"/>
-                    <input type="email" placeholder="E-mail"/>
+                    <input type="text" placeholder="Seu nome" required/>
+                    <input type="email" placeholder="E-mail"required/>
                     <input type="number" placeholder="Celular"/>
                     <textarea name="text" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
                 <button type="submit">Enviar</button>
@@ -74,15 +74,15 @@
             </div>
             <div>
                 <h3>Nos acompanhe</h3>
-                <ul>
-                    <li><a href="">Siga-nos no Instagram</a>
-                        <img src="./imagens/instagram.png" alt="logo">
+                <ul class="social">
+                    <li><a href=""></a>
+                        <img src="./imagens/instagram.png" alt="Siga-nos no Instagram">
                     </li>
-                    <li><a href="">Siga-nos no Facebook</a>
-                        <img src="./imagens/facebook.png" alt="logo">
+                    <li><a href=""></a>
+                        <img src="./imagens/facebook.png" alt="Siga-nos no Facebook">
                     </li>
-                    <li><a href="">Visite nosso canal no Youtube</a>
-                        <img src="./imagens/youtube.png" alt="logo">
+                    <li><a href=""></a>
+                        <img src="./imagens/youtube.png" alt="Visite nosso canal no Youtube">
                     </li>
                 </ul>
             </div>
@@ -92,9 +92,16 @@
             </div>
         </div>
     </div>
-
-
 </section>
+
+<footer>
+    <div class="container">
+        <p>
+            &copy; Games Shop - Todos os direitos reservados - 2023
+        </p>
+    </div>
+</footer>
+
 
 </body>
 </html>
